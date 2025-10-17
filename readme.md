@@ -29,7 +29,7 @@
 - **Data (high-level):** Public, permissively-licensed instruction/answer samples; light cleaning (schema-first prompts, deduplication, short/medium sequence focus).
 - **Loss:** Standard next-token cross-entropy on the answer portion; prompts masked as needed.
 
-### 3) Direct Preference Optimization (DPO) — optional alignment pass
+### 3) Direct Preference Optimization (DPO) - optional alignment pass
 - **Goal:** Prefer better responses over weaker ones using **(chosen, rejected)** pairs.
 - **Effect:** Nudges style toward concise, helpful answers without over-length verbosity.
 
