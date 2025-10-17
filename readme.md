@@ -12,7 +12,7 @@
   1) **SFT** (instruction-tuning) → next-token loss  
   2) **DPO** (optional pass) → preference alignment using chosen/rejected pairs
 - **Objective:** Improve instruction-following, reasoning scaffolding, and general helpfulness on short/medium prompts.
-- **Intended use:** Local/offline experiments, reproducible demos, and benchmarking—**not** production.
+- **Intended use:** Local/offline experiments, reproducible demos, and benchmarking **not** production.
 - **License:** MIT for this repo and weight deltas; base model and any datasets keep their original licenses.
 
 ---
