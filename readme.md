@@ -1,7 +1,7 @@
 # Phi-Tunes POC — Training Summary & Tester Guide
 
 > **What is this?**  
-> A small, proof-of-concept LoRA fine-tune of **Microsoft Phi-2 (2.7B)** built with the **Phi-Tunes** training pipeline. This README explains **how it was trained** and **how to test it**. It intentionally avoids marketing fluff and focuses on what evaluators need to know.
+> A small, proof-of-concept LoRA fine-tune of **Microsoft Phi-2 (2.7B)** built with the **Phi-Tunes** training pipeline. This README explains **how it was trained** and **how to test it**.
 
 ## TL;DR (for testers)
 
