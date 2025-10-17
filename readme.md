@@ -1,4 +1,4 @@
-# Phi-Tunes POC — Training Summary & Tester Guide
+# Freethought PoC Training Summary & Tester Guide
 
 > **What is this?**  
 > A small, proof-of-concept LoRA fine-tune of **Microsoft Phi-2 (2.7B)** built with the **Freethought** training pipeline. This README explains **how it was trained** and **how to test it**.
