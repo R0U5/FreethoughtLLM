@@ -57,7 +57,7 @@ model = AutoModelForCausalLM.from_pretrained(base, torch_dtype=torch.bfloat16, d
 model = PeftModel.from_pretrained(model, adapters)
 model.eval()
 
-prompt = "Explain what WebRCON is in Rust and show one safe example command."
+prompt = "Explain what WebRCON is and show one safe example command."
 inputs = tok(prompt, return_tensors="pt").to(model.device)
 out = model.generate(**inputs, max_new_tokens=256, temperature=0.2, top_p=0.9)
 print(tok.decode(out[0], skip_special_tokens=True))
@@ -74,7 +74,7 @@ Point to the merged folder instead of using PEFT.
 - **Prompting style:** Plain natural language instructions (no special tags required)
 
 ### Quick sanity prompts
-- “List three safe maintenance tasks for a Rust game server and explain each in one sentence.”  
+- “List three U.S. Presidents in Chronological Order.”  
 - “Summarize what Direct Preference Optimization (DPO) does in one paragraph.”  
 - “Write a small bash snippet that tails a log file and highlights lines containing ‘ERROR’.”
 
@@ -85,7 +85,6 @@ Point to the merged folder instead of using PEFT.
 - Short to medium **instruction-following**
 - Clear, **concise** answers
 - Light **reasoning** and step-by-step explanations
-- Simple **code** or **ops** snippets
 
 ## Known Limitations
 
@@ -119,7 +118,7 @@ Point to the merged folder instead of using PEFT.
 
 ## Responsible Use
 
-This project is for **research & evaluation**. Do not deploy for decisions impacting health, safety, finance, or law without rigorous, domain-specific evaluation and safeguards.
+This project is for **research & evaluation**. Do not deploy for decisions impacting health, safety, finance, or law without rigorous, domain-specific evaluation and safeguards!
 
 ---
 
@@ -128,4 +127,4 @@ This project is for **research & evaluation**. Do not deploy for decisions impac
 - **Microsoft Research** for Phi-2
 - The open-source community (especially Hugging Face)
 
-*MIT © William Eugene Furtado. See `LICENSE`.*
+*MIT © William Furtado. See `LICENSE`.*
