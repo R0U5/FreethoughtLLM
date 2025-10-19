@@ -126,6 +126,6 @@ This project is for **research & evaluation**. Do not deploy for decisions impac
 - **Microsoft Research** for Phi-2
 - The open-source community (especially Hugging Face)
 
-> **DOWNLOAD HERE - https://drive.google.com/file/d/1UGfWeFrpRqT9qWVT5PSWLSgWpQR_GN95**
+> **DOWNLOAD HERE - Coming Soon**
 
 *MIT © William Furtado. See `LICENSE`.*
