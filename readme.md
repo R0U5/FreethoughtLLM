@@ -128,4 +128,4 @@ This project is for **research & evaluation**. Do not deploy for decisions impac
 
 > **DOWNLOAD HERE - Coming Soon**
 
-*MIT © William Furtado. See `LICENSE`.*
+*NC OSL‑A 1.0 © William Furtado. See `LICENSE`.*
