@@ -12,7 +12,6 @@
   2) **DPO** (optional pass) → preference alignment using chosen/rejected pairs
 - **Objective:** Improve instruction-following, reasoning scaffolding, and general helpfulness on short/medium prompts.
 - **Intended use:** Local/offline experiments, reproducible demos, and benchmarking **not** production.
-- **License:** MIT for this repo and weight deltas; base model and any datasets keep their original licenses.
 
 ---
 
@@ -66,7 +65,7 @@ print(tok.decode(out[0], skip_special_tokens=True))
 Point to the merged folder instead of using PEFT.
 
 ### Recommended test settings
-- `max_new_tokens: 128–512`
+- `max_new_tokens: 128–756`
 - `temperature: 0.2–0.7`
 - `top_p: 0.9`
 - **Stop tokens:** newline(s) if you need crisp endings
@@ -119,13 +118,5 @@ Point to the merged folder instead of using PEFT.
 
 This project is for **research & evaluation**. Do not deploy for decisions impacting health, safety, finance, or law without rigorous, domain-specific evaluation and safeguards!
 
----
-
-## Acknowledgments
-
-- **Microsoft Research** for Phi-2
-- The open-source community (especially Hugging Face)
-
-> **DOWNLOAD HERE - Coming Soon**
 
 *NC OSL‑A 1.0 © William Furtado. See `LICENSE`.*
